@@ -1,0 +1,191 @@
+{
+    "contract_metadata": {
+        "policy_number": "INS-2024-HLTH-001",
+        "insurer": {
+            "name": "GlobalCare Insurance Solutions",
+            "headquarters": "1500 Corporate Drive, Phoenix, Arizona 85001",
+            "regulatory_license": {
+                "issuing_body": "State of Arizona Insurance Commission",
+                "license_number": "AC-7892"
+            }
+        }
+    },
+    "parties": {
+        "insurer": {
+            "legal_entity_name": "GlobalCare Insurance Solutions",
+            "corporate_registration_number": "45-6789012",
+            "tax_identification_number": "86-7543210",
+            "contact_information": {
+                "customer_service_phone": "1-800-GLOBALCARE",
+                "claims_email": "claims@globalcare.com",
+                "website": "www.globalcare.com"
+            }
+        },
+        "policyholder": {
+            "required_fields": [
+                "full_legal_name",
+                "date_of_birth",
+                "social_security_number",
+                "primary_address",
+                "contact_phone",
+                "email_address"
+            ]
+        }
+    },
+    "coverage_specifications": {
+        "primary_health_coverage": {
+            "inpatient_services": {
+                "coverage_details": [
+                    "Full hospitalization coverage",
+                    "Room and board",
+                    "Nursing care",
+                    "Surgical procedures"
+                ],
+                "maximum_stay": {
+                    "duration": 180,
+                    "duration_type": "consecutive_days",
+                    "per": "medical_condition"
+                },
+                "specialized_care_units": {
+                    "ICU": "100% coverage",
+                    "CCU": "100% coverage"
+                }
+            },
+            "outpatient_services": [
+                "Physician consultations",
+                "Diagnostic tests",
+                "Medical imaging",
+                "Laboratory work",
+                "Specialist consultations",
+                "Preventive care screenings"
+            ],
+            "prescription_medication": {
+                "coverage_tiers": {
+                    "generic_medications": {
+                        "coverage_percentage": 90
+                    },
+                    "brand_name_medications": {
+                        "coverage_percentage": 70
+                    },
+                    "specialty_medications": {
+                        "coverage_percentage": 60,
+                        "requires_prior_authorization": true
+                    }
+                }
+            }
+        },
+        "specialized_coverage": {
+            "dental_coverage": {
+                "preventive_care": {
+                    "services": ["cleanings", "x-rays"],
+                    "coverage_percentage": 100
+                },
+                "basic_procedures": {
+                    "services": ["fillings", "extractions"],
+                    "coverage_percentage": 80
+                },
+                "major_procedures": {
+                    "services": ["crowns", "bridges", "root_canals"],
+                    "coverage_percentage": 50
+                },
+                "orthodontic_coverage": {
+                    "age_limit": 19,
+                    "covered": true
+                },
+                "annual_maximum_benefit": 2500
+            },
+            "vision_coverage": [
+                "Annual eye examination",
+                "Prescription eyewear",
+                "Contact lens allowance",
+                "Laser vision correction discount program"
+            ],
+            "mental_health_coverage": {
+                "therapy_sessions": "Unlimited per year",
+                "treatment_types": [
+                    "Inpatient mental health treatment",
+                    "Outpatient mental health treatment",
+                    "Substance abuse rehabilitation",
+                    "Telehealth mental health consultations"
+                ]
+            }
+        }
+    },
+    "financial_terms": {
+        "premium_structure": {
+            "base_premium": 450,
+            "payment_frequency": {
+                "monthly": {
+                    "method": "Electronic Funds Transfer"
+                },
+                "quarterly": {
+                    "discount_percentage": 3
+                },
+                "annual": {
+                    "discount_percentage": 7
+                }
+            },
+            "accepted_payment_methods": [
+                "Credit Card",
+                "Bank Transfer", 
+                "Electronic Wallet"
+            ]
+        },
+        "deductibles": {
+            "individual_deductible": 1500,
+            "family_deductible": 3000,
+            "out_of_pocket_maximum": {
+                "individual": 6000,
+                "family": 12000
+            },
+            "reset_date": "January 1st"
+        }
+    },
+    "exclusions_and_limitations": {
+        "general_exclusions": [
+            "Cosmetic procedures",
+            "Experimental treatments",
+            "Alternative medicine not pre-approved",
+            "Self-inflicted injuries",
+            "Injuries from illegal activities"
+        ],
+        "pre_existing_conditions": {
+            "waiting_period": {
+                "duration": 12,
+                "duration_type": "months"
+            },
+            "diagnostic_lookback_period": 6,
+            "coverage_progression": "Partial coverage increases progressively"
+        }
+    },
+    "claims_process": {
+        "submission_requirements": {
+            "time_limit": {
+                "duration": 90,
+                "duration_type": "days",
+                "from": "service_date"
+            },
+            "required_documentation": [
+                "Itemized medical billing statements",
+                "Diagnostic codes",
+                "Provider tax identification number",
+                "Patient identification information"
+            ]
+        },
+        "processing_details": {
+            "electronic_claims": {
+                "processing_time": {
+                    "min_days": 7,
+                    "max_days": 14
+                }
+            },
+            "paper_claims": {
+                "processing_time": {
+                    "min_days": 14,
+                    "max_days": 30
+                }
+            },
+            "direct_provider_billing": true
+        }
+    }
+}

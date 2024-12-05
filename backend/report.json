@@ -1,0 +1,57 @@
+{
+    "comparison_table": [
+        {
+            "Clause": "effective_date",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Title : Website Development Service Agreement  \nParties :  \n\u2022 Client : John Doe, 123 Main St, Anytown, USA  \n\u2022 Service Provider : Web Solutions Inc., 456 Web Ave, Tech City, USA  \nEffective Date : January 1, 2024  \n1. Project Timeline : \n\u2022 Commencement Date : January 15, 2024  \n\u2022 Completion Date : March 15, 2024  \n4."
+        },
+        {
+            "Clause": "coverage_specifications",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Services Provided : \n\u2022 Design and Development :"
+        },
+        {
+            "Clause": "financial_terms",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Payment Terms : \n\u2022 Total Cost : $10,000  \n\u2022 Deposit : $2,000 due upon signing."
+        },
+        {
+            "Clause": "confidentiality",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Confidentiality : \n\u2022 Both parties agree to confidentiality of project details and intellectual property."
+        },
+        {
+            "Clause": "dispute_resolution",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Governing Law : \n\u2022 This agreement is governed by the laws of the State of California."
+        },
+        {
+            "Clause": "amendments",
+            "Expected Terms": "Not specified",
+            "Remarks": "Review needed",
+            "Status": "Mismatch",
+            "Uploaded Contract": "Amendments : \n\u2022 Any changes to this agreement must be documented in writing and signed by both parties."
+        }
+    ],
+    "compliance_summary": [],
+    "conclusion": "Please review and address the identified discrepancies to ensure compliance with standard terms and reduce legal risks.",
+    "discrepancies": [],
+    "header_section": {
+        "Conformity Percentage": "0.00%",
+        "Contract Name": "Sample_contract.pdf",
+        "Date Processed": "2024-12-02",
+        "Expected Terms Name": "Untitled_document_1.pdf"
+    },
+    "recommendations": [],
+    "title": "Feedback Report for Uploaded Agreement"
+}
